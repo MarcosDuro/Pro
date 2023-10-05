@@ -145,7 +145,7 @@ async def my_event_handler(m):
     print(f'{cc}|{mes}|{ano}|{cvv}')
     with open('cards.txt', 'a') as w:
         w.write(fullinfo + '\n')
-    bot.send_animation(SEND_CHAT,gif_url, supports_streaming=True, caption=text,parse_mode='HTML', reply_markup=refe)
+    bot.send_animation(SEND_CHAT,gif_url,duration=0, caption=text,parse_mode='HTML', reply_markup=refe)
         
 refe = InlineKeyboardMarkup(row_width = 2)
 b1 = InlineKeyboardButton("𝐎𝐰𝐧𝐞𝐫", url="https://t.me/BannedEnd")
