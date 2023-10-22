@@ -141,7 +141,7 @@ async def my_event_handler(m):
 <b><i>Card: </i></b><code>{cc}|{mes}|{ano}|{cvv}</code>
 <b><i>Extra: </i></b> <code>{hidden_card_number(cc)} {mes}/{ano} </code>
 <b><i>Bank: </i></b>{bank}
-<b><i>Info: </i></b>{level}-{card_type}-{brand} {country_name} [{country_flag}]
+<b><i>Info: </i></b>{level}-{card_type}-{brand}-{country_name} [{country_flag}]
 <b><i>Scrapped By</i></b>- @BannedEnd
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
