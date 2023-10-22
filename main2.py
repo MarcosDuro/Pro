@@ -151,8 +151,8 @@ async def my_event_handler(m):
 ━━━━━━━━━━━━━━━━━━
 <b>• EXTRA2:</b><code>{ocultar_digitos_tarjeta(cc)}|{mes}|{ano}|rnd</code>
 ━━━━━━━━━━━━━━━━━━
-<b>• BANK</b>: {bank}
 ━━[<b><i>Bin Information</i></b>]━━
+<b>• BANK</b>: {bank}
 <b>• COUNTRY</b>: {country_name} [{country_flag}]
 <b>• TYPE</b>: <code>{level}-{card_type}-{brand}</code>
 """    
