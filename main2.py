@@ -144,10 +144,13 @@ async def my_event_handler(m):
     text = f""" 
 
 ━━[{country_flag}]<b><i>Card Information</i></b>]━━
-<b>BIN</b>: [<code>#Bin{cc[:6]}</code>]   
+<b>BIN</b>: [#Bin{cc[:6]}]   
 <b><i>• Card </i></b>» <code>{cc}|{mes}|{ano}|{cvv}</code>
+━━━━━━━━━━━━━━━━━━
 <b>• EXTRA</b>: <code>{hidden_card_number(cc)}|{mes}|{ano}|rnd</code>
-<b>• EXTRA 2</b><code>{ocultar_digitos_tarjeta(cc)}|{mes}|{ano}|rnd</code>
+━━━━━━━━━━━━━━━━━━
+<b>• EXTRA2:</b><code>{ocultar_digitos_tarjeta(cc)}|{mes}|{ano}|rnd</code>
+━━━━━━━━━━━━━━━━━━
 <b>• BANK</b>: {bank}
 ━━[<b><i>Bin Information</i></b>]━━
 <b>• COUNTRY</b>: {country_name} [{country_flag}]
