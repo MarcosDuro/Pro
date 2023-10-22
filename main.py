@@ -137,7 +137,7 @@ async def my_event_handler(m):
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}"
               
     text = f""" 
-[#Bin{cc[:6]}]  #{contador}
+[#Bin{cc[:6]}]
 <b><i>Card: </i></b><code>{cc}|{mes}|{ano}|{cvv}</code>
 <b><i>Extra: </i></b> <code>{hidden_card_number(cc)} {mes}/{ano} </code>
 <b><i>Bank: </i></b>{bank}
