@@ -142,7 +142,7 @@ async def my_event_handler(m):
 <b><i>Extra: </i></b> <code>{hidden_card_number(cc)} {mes}/{ano} </code>
 <b><i>Bank: </i></b>{bank}
 <b><i>Info: </i></b>{level}-{card_type}-{brand} {country_name} [{country_flag}]
-<b><i>Scrapped By</i><b>- @BannedEnd
+<b><i>Scrapped By</i></b>- @BannedEnd
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
     with open('cards.txt', 'a') as w:
