@@ -145,7 +145,7 @@ async def my_event_handler(m):
 
 ━━[{country_flag}]<b><i>Card Information</i></b>]━━
 <b>BIN</b>: [#Bin{cc[:6]}]   
-<b><i>• Card </i></b>» <code>{cc}|{mes}|{ano}|{cvv}</code>
+<b><i>Card</i></b> <code>{cc}|{mes}|{ano}|{cvv}</code>
 ───────────────
 <b>• EXTRA</b>: <code>{hidden_card_number(cc)} {mes}/{ano}</code>
 ───────────────
